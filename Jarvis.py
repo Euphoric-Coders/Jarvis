@@ -45,11 +45,15 @@ def Commands(inp):
     elif "assist" in inp:
         return ("assist", "clf")
     elif "how are you" in inp:
-        return ("Hi, I am doing great", "clf")
+        return ("Hi, I am doing great", "")
     elif "exit" in inp:
         return ("Bye, Have a nice day !!", "exit")
     elif "who are you" in inp or "what are you" in inp:
         return (start_message, "")
+    elif "siri" in inp or "alexa" in inp or "google assistant" in inp or "cortana" in inp:
+        return ("There are many assistants out there but, I am different", "")
+    elif "you are horrible" in inp or "i hate you" in inp or "you are bad":
+        return ("Thanks for your feedback.", "")
     else:
         return("Sorry, I did not understand. Please try again !!")
 
