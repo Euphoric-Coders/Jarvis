@@ -10,4 +10,12 @@ A personal assistant for the visually impaired.
 5. SpeechRecognition
 6. Pyttsx3
 7. Keras
-8. 
+8. H5py
+9. Scipy
+10. Cython
+11. Sklearn
+12. Matplotlib
+13. Pygame
+14. Socket
+15. Pillow
+
