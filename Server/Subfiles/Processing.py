@@ -66,7 +66,7 @@ def Dist(data):
             focus_list = object_dictionary[obj]
             print(focus_list)
             focus = ((int(focus_list[0])*focus_list[1])/focus_list[2])
-            distance = ((focus_list[2]*focus)/pxl_dst)/15
+            distance = abs(((focus_list[2]*focus)/pxl_dst)/15)
             drn_txt = Direction(crds)
         else :
             distance = "na"
